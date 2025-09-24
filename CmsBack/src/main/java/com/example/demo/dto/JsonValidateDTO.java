@@ -1,12 +1,17 @@
-package com.example.demo.model;
+package com.example.demo.dto;
 
 import java.io.File;
 
-public class JsonCheckerModel {
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class JsonValidateDTO {
 
 	private File jsonFile;
 
-	private String[] message;
+	private String message;
 
 	public File getJsonFile() {
 		return jsonFile;
@@ -16,11 +21,11 @@ public class JsonCheckerModel {
 		this.jsonFile = jsonFile;
 	}
 
-	public String[] getMessage() {
+	public String getMessage() {
 		return message;
 	}
 
-	public void setMessage(String[] message) {
+	public void setMessage(String message) {
 		this.message = message;
 	}
 
