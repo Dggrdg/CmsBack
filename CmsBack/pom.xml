@@ -52,6 +52,18 @@
 			<version>1.18.12</version>
 			<scope>provided</scope>
 		</dependency>
+		
+		<dependency>
+        	<groupId>com.networknt</groupId>
+        	<artifactId>json-schema-validator</artifactId>
+        	<version>1.4.0</version>
+    	</dependency>
+    	
+    	<dependency>
+    		<groupId>org.json</groupId>
+    		<artifactId>json</artifactId>
+		    <version>20240303</version> <!-- Use a recent stable version -->
+		</dependency>
 	</dependencies>
 
 	<build>

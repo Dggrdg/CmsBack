@@ -1,0 +1,17 @@
+{
+  "ChargingREC": {
+    "UpdateTime": "2025-08-18 16:27:28",
+    "ParkID": "4923",
+    "RecDate": "2025-08-18",
+    "ChargingRecList": [
+      {
+        "ConnectorID": "53703514-C500072_1",
+        "ChargeTime": 0,
+        "StartTime": "2025-08-18 00:00:00",
+        "EndTime": "2025-08-18 00:00:00",
+        "ChargeKWH": 0,
+        "UpdateTime": "2025-08-18 00:00:00"
+      }
+    ]
+  }
+}
